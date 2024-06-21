@@ -841,7 +841,7 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   scriptingDefineSymbols:
-    Android: DOTWEEN
+    Android: DOTWEEN;PROBUILDER_EXPERIMENTAL_FEATURES
     Bratwurst: DOTWEEN
     EmbeddedLinux: DOTWEEN
     GameCoreScarlett: DOTWEEN
@@ -851,7 +851,7 @@ PlayerSettings:
     PS4: DOTWEEN
     PS5: DOTWEEN
     QNX: DOTWEEN
-    Standalone: DOTWEEN
+    Standalone: DOTWEEN;PROBUILDER_EXPERIMENTAL_FEATURES
     WebGL: DOTWEEN
     Windows Store Apps: DOTWEEN
     XboxOne: DOTWEEN
