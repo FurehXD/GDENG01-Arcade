@@ -5,13 +5,13 @@ using UnityEngine;
 public class FlickerEffect : MonoBehaviour
 {
     [SerializeField]
-    private Material flickerMaterial; 
+    private Material flickerMaterial;
     [SerializeField]
-    private float minIntensity = 0.5f; // Minimum intensity of the flicker
+    private float minIntensity; // Minimum intensity of the flicker
     [SerializeField]
-    private float maxIntensity = 1.5f; // Maximum intensity of the flicker
+    private float maxIntensity; // Maximum intensity of the flicker
     [SerializeField]
-    private float flickerSpeed = 0.1f; // Speed of the flicker effect
+    private float flickerSpeed; // Speed of the flicker effect
 
     private Coroutine flickerRoutine;
 
